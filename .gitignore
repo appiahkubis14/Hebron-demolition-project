@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model weights and exports
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Data and run outputs
+data/
+runs/
+outputs/
+
+# OS
+.DS_Store
+
+# Case-study downloads and products
+case_studies/*/data/
